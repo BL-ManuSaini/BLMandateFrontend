@@ -1,0 +1,401 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Shubham Chaudhari",
+      "email": "shubham.chaudhari@bridgelabz.com",
+      "role": "MIS_MANAGER",
+      "status": "active",
+      "coeScopeIds": [],
+      "avatar": "AM"
+    },
+    {
+      "id": "u2",
+      "name": "Shubham Chaudhari2",
+      "email": "shubhamchaudhari1506@gmail.com",
+      "role": "ACCOUNT_MANAGER",
+      "status": "active",
+      "coeScopeIds": [],
+      "avatar": "PS"
+    },
+    {
+      "id": "u3",
+      "name": "Shubham Chaudhari3",
+      "email": "shubham.chaudhari8530@gmail.com",
+      "role": "COE_LAB_HEAD",
+      "status": "active",
+      "coeScopeIds": [
+        "coe1",
+        "coe2"
+      ],
+      "avatar": "RV"
+    },
+    {
+      "id": "u4",
+      "name": "HOE Demo",
+      "email": "hoe@demo.bridgelabz.com",
+      "role": "HEAD_OF_ENGINEERING",
+      "status": "active",
+      "coeScopeIds": [],
+      "avatar": "SP"
+    },
+    {
+      "id": "u5",
+      "name": "Coordinator Demo",
+      "email": "coordinator@demo.bridgelabz.com",
+      "role": "COE_COORDINATOR",
+      "status": "active",
+      "coeScopeIds": [
+        "coe1"
+      ],
+      "avatar": "KD"
+    },
+    {
+      "id": "u6",
+      "name": "manu",
+      "email": "manu@bridgelabz.com",
+      "role": "COE_LAB_HEAD",
+      "status": "active",
+      "coeScopeIds": [
+        "coe3"
+      ],
+      "avatar": "AK"
+    },
+    {
+      "id": "u7",
+      "name": "Neha",
+      "email": "neha@bridgelabz.com",
+      "role": "COE_COORDINATOR",
+      "status": "active",
+      "coeScopeIds": [
+        "coe2",
+        "coe3"
+      ],
+      "avatar": "NJ"
+    }
+  ],
+  "coes": [
+    {
+      "id": "coe1",
+      "name": "Mumbai Institute of Technology",
+      "location": "Mumbai",
+      "spoc": "Dr. Ramesh Iyer",
+      "studentsCount": 340
+    },
+    {
+      "id": "coe2",
+      "name": "Pune Engineering College",
+      "location": "Pune",
+      "spoc": "Prof. Anita Rao",
+      "studentsCount": 280
+    },
+    {
+      "id": "coe3",
+      "name": "Bangalore Tech University",
+      "location": "Bangalore",
+      "spoc": "Dr. Suresh Kumar",
+      "studentsCount": 420
+    },
+    {
+      "id": "coe4",
+      "name": "Hyderabad Institute of Science",
+      "location": "Hyderabad",
+      "spoc": "Prof. Lakshmi Reddy",
+      "studentsCount": 310
+    }
+  ],
+  "clients": [
+    {
+      "id": "cl1",
+      "name": "Apexon",
+      "tags": [
+        "fintech",
+        "enterprise"
+      ],
+      "accountOwner": "u2",
+      "shortCode": "Apexon"
+    },
+    {
+      "id": "cl2",
+      "name": "TechMahindra",
+      "tags": [
+        "telecom",
+        "it-services"
+      ],
+      "accountOwner": "u2",
+      "shortCode": "TechM"
+    },
+    {
+      "id": "cl3",
+      "name": "Infosys BPM",
+      "tags": [
+        "bpo",
+        "enterprise"
+      ],
+      "accountOwner": "u2",
+      "shortCode": "InfyBPM"
+    },
+    {
+      "id": "cl4",
+      "name": "Wipro Digital",
+      "tags": [
+        "digital",
+        "cloud"
+      ],
+      "accountOwner": "u2",
+      "shortCode": "Wipro"
+    }
+  ],
+  "mandates": [
+    {
+      "id": "4sxs9hir",
+      "mandateName": "GE Upskilling",
+      "clientId": "cl1",
+      "mandateType": "NEW",
+      "contractRef": "",
+      "startDate": "2026-05-08",
+      "onboardingDate": "2026-07-09",
+      "locations": [
+        "pune"
+      ],
+      "notes": "",
+      "status": "draft",
+      "createdAt": "2026-05-08T08:35:22.122Z",
+      "createdBy": "u2"
+    },
+    {
+      "id": "yaom8urp",
+      "mandateName": "GE Upskilling 1",
+      "clientId": "cl1",
+      "mandateType": "NEW",
+      "contractRef": "",
+      "startDate": "2026-05-08",
+      "onboardingDate": "2026-07-09",
+      "locations": [
+        "pune"
+      ],
+      "notes": "",
+      "status": "draft",
+      "createdAt": "2026-05-08T10:32:35.063Z",
+      "createdBy": "u2"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "nhw9dy3n",
+      "requirementCode": "Apexon-NEW-FullStack-FresherISA-May08-555",
+      "filledPositions": 0,
+      "status": "active",
+      "createdAt": "2026-05-08T08:35:54.129Z",
+      "mandateId": "4sxs9hir",
+      "techStack": "Full Stack",
+      "intakeType": "Fresher ISA",
+      "expLevel": "Fresher",
+      "location": "pune",
+      "onboardingDate": "2026-05-08",
+      "openPositions": 10,
+      "targetCoeIds": [
+        "coe1"
+      ]
+    },
+    {
+      "id": "vjjg18ku",
+      "requirementCode": "Apexon-NEW-Python-FresherISA-May08-609",
+      "filledPositions": 0,
+      "status": "active",
+      "createdAt": "2026-05-08T10:33:51.451Z",
+      "mandateId": "yaom8urp",
+      "techStack": "Python",
+      "intakeType": "Fresher ISA",
+      "expLevel": "Fresher",
+      "location": "pune",
+      "onboardingDate": "2026-05-08",
+      "openPositions": 10,
+      "targetCoeIds": [
+        "coe3"
+      ]
+    }
+  ],
+  "hiringDrives": [],
+  "candidates": [
+    {
+      "id": "qn8e06sh",
+      "name": "Shubham1",
+      "email": "shubham1@gmail.com",
+      "phone": "1223333324",
+      "coeId": "coe2",
+      "graduationYear": 2025,
+      "stream": "   CSE",
+      "skills": [
+        "node",
+        "java",
+        "c#"
+      ],
+      "assessmentScore": 75,
+      "status": "Mapped",
+      "resumeLink": "",
+      "externalKey": "COE2-mjqd9wec",
+      "createdAt": "2026-05-08T08:36:35.051Z"
+    },
+    {
+      "id": "3l8bn2sa",
+      "name": "Shubham1",
+      "email": "shubham1@gmail.com",
+      "phone": "1223333324",
+      "coeId": "coe2",
+      "graduationYear": 2025,
+      "stream": "   CSE",
+      "skills": [
+        "node",
+        "java",
+        "c#"
+      ],
+      "assessmentScore": 75,
+      "status": "Mapped",
+      "resumeLink": "",
+      "externalKey": "COE2-rcj4ypff",
+      "createdAt": "2026-05-08T10:35:22.746Z"
+    }
+  ],
+  "mappings": [
+    {
+      "id": "p9zvosa1",
+      "requirementId": "nhw9dy3n",
+      "status": "Confirmed by MIS",
+      "createdBy": "u3",
+      "currentOwnerRole": "COE_LAB_HEAD",
+      "notes": "",
+      "createdAt": "2026-05-08T08:36:48.875Z",
+      "updatedAt": "2026-05-08T08:38:05.012Z"
+    },
+    {
+      "id": "uxfg2ef0",
+      "requirementId": "vjjg18ku",
+      "status": "Confirmed by MIS",
+      "createdBy": "u3",
+      "currentOwnerRole": "COE_LAB_HEAD",
+      "notes": "",
+      "createdAt": "2026-05-08T10:35:32.606Z",
+      "updatedAt": "2026-05-08T10:37:01.140Z"
+    }
+  ],
+  "mappingLineItems": [
+    {
+      "id": "c2zaya1x",
+      "mappingId": "p9zvosa1",
+      "candidateId": "qn8e06sh",
+      "proposedTech": "Full Stack",
+      "allocationType": "Primary"
+    },
+    {
+      "id": "qiy0wzh5",
+      "mappingId": "uxfg2ef0",
+      "candidateId": "3l8bn2sa",
+      "proposedTech": "Python",
+      "allocationType": "Primary"
+    }
+  ],
+  "approvals": [
+    {
+      "id": "2msnfz31",
+      "mappingId": "p9zvosa1",
+      "actorRole": "HEAD_OF_ENGINEERING",
+      "actorId": "u4",
+      "decision": "Approved",
+      "comment": "",
+      "timestamp": "2026-05-08T08:37:04.387Z"
+    },
+    {
+      "id": "nxcs6u0u",
+      "mappingId": "p9zvosa1",
+      "actorRole": "MIS_MANAGER",
+      "actorId": "u1",
+      "decision": "Approved",
+      "comment": "",
+      "timestamp": "2026-05-08T08:38:04.980Z"
+    },
+    {
+      "id": "iy3aci0y",
+      "mappingId": "uxfg2ef0",
+      "actorRole": "HEAD_OF_ENGINEERING",
+      "actorId": "u4",
+      "decision": "Approved",
+      "comment": "",
+      "timestamp": "2026-05-08T10:35:58.660Z"
+    },
+    {
+      "id": "31t2a5u6",
+      "mappingId": "uxfg2ef0",
+      "actorRole": "MIS_MANAGER",
+      "actorId": "u1",
+      "decision": "Approved",
+      "comment": "",
+      "timestamp": "2026-05-08T10:37:01.107Z"
+    }
+  ],
+  "discussionLogs": [
+    {
+      "id": "bg8aw856",
+      "mappingLineItemId": "c2zaya1x",
+      "coordinatorId": "u1",
+      "outcome": "Interested",
+      "notes": "",
+      "followUpDate": "2026-05-08",
+      "createdAt": "2026-05-08T08:38:47.228Z"
+    },
+    {
+      "id": "331cefm6",
+      "mappingLineItemId": "c2zaya1x",
+      "coordinatorId": "u5",
+      "outcome": "Interested",
+      "notes": "",
+      "followUpDate": "2026-05-08",
+      "createdAt": "2026-05-08T10:36:18.759Z"
+    }
+  ],
+  "lois": [
+    {
+      "id": "clvx6auo",
+      "candidateId": "qn8e06sh",
+      "requirementId": "nhw9dy3n",
+      "mappingId": "p9zvosa1",
+      "sentAt": "2026-05-08T08:37:22.911Z",
+      "signedAt": "2026-05-08T08:37:25.544Z",
+      "documentUrl": "",
+      "status": "Signed"
+    },
+    {
+      "id": "efi2irp9",
+      "candidateId": "qn8e06sh",
+      "requirementId": "nhw9dy3n",
+      "mappingId": "p9zvosa1",
+      "sentAt": "2026-05-08T08:38:15.033Z",
+      "signedAt": "2026-05-08T08:38:17.650Z",
+      "documentUrl": "",
+      "status": "Signed"
+    },
+    {
+      "id": "wbb8ucn6",
+      "candidateId": "qn8e06sh",
+      "requirementId": "nhw9dy3n",
+      "mappingId": "p9zvosa1",
+      "sentAt": "2026-05-08T08:39:26.262Z",
+      "signedAt": "2026-05-08T08:39:48.303Z",
+      "documentUrl": "",
+      "status": "Signed"
+    },
+    {
+      "id": "08oe0qni",
+      "candidateId": "3l8bn2sa",
+      "requirementId": "vjjg18ku",
+      "mappingId": "uxfg2ef0",
+      "sentAt": "2026-05-08T10:36:31.144Z",
+      "signedAt": "2026-05-08T10:36:36.739Z",
+      "documentUrl": "",
+      "status": "Signed"
+    }
+  ],
+  "cfpEnrollments": [],
+  "notifications": [],
+  "auditEvents": []
+}
